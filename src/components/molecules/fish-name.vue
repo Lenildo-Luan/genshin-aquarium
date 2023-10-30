@@ -4,13 +4,13 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
-import Input from '../atoms/input.vue'
-import Button from '../atoms/button.vue'
+    import { ref } from 'vue'
+    import Input from '../atoms/input.vue'
+    import Button from '../atoms/button.vue'
 
-const fishName = ref('')
+    const fishName = ref('')
 
-const updateName = (inputValue) => fishName.value = inputValue
+    const updateName = (inputValue) => fishName.value = inputValue
 </script>
 
 <style scoped>
