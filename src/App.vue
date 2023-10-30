@@ -1,7 +1,7 @@
 <template>
-    <FishShop />
+    <VirtualAquarium />
 </template>
 
 <script setup>
-    import FishShop from '../src/components/organisms/fish-shop.vue'
+    import VirtualAquarium from './components/layout/virtual-aquarium.vue'
 </script>

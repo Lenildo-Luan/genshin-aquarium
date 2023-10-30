@@ -16,7 +16,16 @@
 
 <style scoped>
     .fish-shop {
-        padding: 0.5rem;
-        background-color: var(--vt-c-white);
+        width: 19rem;
+        padding: 1rem 2rem 1rem 1rem;
+        background-color: var(--color-background);
+    }
+
+    .fish-shop > .fish-type {
+        margin-bottom: 4rem;
+    }
+
+    .fish-shop > .text {
+        margin-bottom: 1rem;
     }
 </style>

@@ -10,6 +10,8 @@ const props = defineProps({
 
 <style scoped>
 .text {
+    font-weight: bold;
+    color: var(--color-text);
     font-size: 1rem;
 }
 </style>
